@@ -49,3 +49,14 @@ header{
     min-width: 200px;
     width: 10%;
 }
+.bio {
+    display: flex;
+    margin-top: 10vh;
+    align-items: center;
+    text-align: center;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-right: 20%;
+    margin-left: 20%;
+    margin-top: 0px;
+}
