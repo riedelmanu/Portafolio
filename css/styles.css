@@ -1,36 +1,51 @@
+@font-face {    
+    font-family: 'mi-fuente';
+    src: url('../fonts/Satoshi_Complete/Fonts/Variable/Satoshi-Variable.ttf') format('truetype'); 
+}
+
 body {
     background-color: black; 
     color: white; 
-    font-family: Arial, Helvetica, sans-serif, Times, serif, sans-serif; 
+    margin: 0;
+    font-family: 'mi-fuente';
+}
+
+.foto-perfil {
+    position: relative;
+    top: 5%;
+    left: %; 
+    width: 150px; 
+    height: 150px; 
+    border-radius: 300px; 
+    overflow: hidden;
+}
+
+.foto-perfil > img{
+    width: 180px;
+    position: absolute;
+    left: -10px;
+}
+
+.texto-encabezado h1 {
+    margin-bottom: 5px;
+    margin-top: -30px;
+}
+.texto-encabezado p {
     margin: 0;
 }
 
-.contenido {
-    max-width: 800px; 
-    padding: 20px;
-    text-align: center; 
+header{
+    display: flex;
+    margin-top: 10vh;
+    align-items: center;
+    text-align: left;
+    flex-wrap: wrap;
+    justify-content: center;
 }
-
-.container {
-    display: flex; 
-    justify-content: center; 
-    align-items: center; 
-    height: 100vh; 
-}
-.cuadro {
-    background-color: rgba(105, 101, 223, 0.19); 
-    padding: 50px;
-    border-radius: 10px; 
-    text-align: center;
-}
-
-.links{
-    list-style-type: none;
-    padding: 0;
-    margin: 0; 
-}
-
-.links li {
-    display: inline;
-    margin-right: 10px;
+.wrapper {
+    display: flex;
+    justify-content: end;
+    padding-right: 50px;
+    min-width: 200px;
+    width: 10%;
 }

@@ -1,0 +1,78 @@
+    <section>
+        <div class="container">
+            <div class="contenido">
+                <div class="cuadro">
+                    <div class="encabezado">
+                        <h1>Manuel Ángel Riedel</h1>
+                        <p>Bienvenido a mi página.<p>
+                    </div>
+                        <nav>   
+                            <ul class="links">
+                                <li><a href="https://www.instagram.com/manu.riedel/">Instagram</a></li>
+                                <li><a href="https://www.linkedin.com/in/manuel-riedel-997383255/">Linkedin</a></li>
+                                <li><a href="https://api.whatsapp.com/send/?phone=5493445417467&text&type=phone_number&app_absent=0">Whatsapp</a></li>
+                            </ul>
+                        </nav> 
+                    <div class="foto">
+                            <img src="./images/sin-logo.jpg" alt="me">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    .contenido {
+    max-width: 800px; 
+    padding: 20px;
+    text-align: center; 
+}
+
+.container {
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
+    height: 100vh; 
+}
+.cuadro {
+    background-color: rgba(105, 101, 223, 0.19); 
+    position: relative;
+    padding: 50px;
+    border-radius: 10px; 
+    text-align: center;
+}
+
+.encabezado{
+    position:absolute;
+    top: 0px;
+    right: 10px;
+    text-align: left;
+    
+}
+
+.links{
+    list-style-type: none;
+    padding: 0;
+    margin: 0; 
+}
+
+.links li {
+    display: inline;
+    margin-right: 10px;
+}
+
+.foto {
+    position: absolute;
+    top: -30px;
+    left: -30px; 
+    width: 100px; 
+    height: 100px; 
+    border-radius: 60%; 
+    overflow: hidden;
+    background-image: url(../images/sin-logo.jpg);
+}
+
+.foto > img{
+    width: 120px;
+    position: absolute;
+    left: -10px;
+}
