@@ -48,6 +48,7 @@ header{
     padding-right: 50px;
     min-width: 200px;
     width: 10%;
+    margin-bottom: 30px;
 }
 .bio {
     display: flex;
@@ -59,4 +60,15 @@ header{
     margin-right: 20%;
     margin-left: 20%;
     margin-top: 0px;
+}
+.projects{
+    display: flex;
+    margin-top: 10vh;
+    align-items: center;
+    text-align: center;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-right: 20%;
+    margin-left: 20%;
+    margin-top: 0px;  
 }
