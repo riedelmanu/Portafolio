@@ -72,3 +72,20 @@ header{
     margin-left: 20%;
     margin-top: 0px;  
 }
+.contacto {
+    margin-top: 10vh;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+}
+
+.contacto > ul {
+    justify-content: center;
+    flex-wrap: wrap;
+    list-style-type: none;
+    padding: 0;
+}
+
+.contacto > ul > li {
+    margin: 2vh;
+}
