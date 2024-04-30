@@ -51,10 +51,9 @@ header{
     margin-bottom: 30px;
 }
 .bio {
-    display: flex;
     margin-top: 10vh;
     align-items: center;
-    text-align: center;
+    text-align: left;
     flex-wrap: wrap;
     justify-content: center;
     margin-right: 20%;
@@ -62,10 +61,9 @@ header{
     margin-top: 0px;
 }
 .projects{
-    display: flex;
     margin-top: 10vh;
     align-items: center;
-    text-align: center;
+    text-align: left;
     flex-wrap: wrap;
     justify-content: center;
     margin-right: 20%;
@@ -73,19 +71,31 @@ header{
     margin-top: 0px;  
 }
 .contacto {
+    margin-right: 20%;
+    margin-left: 20%;
     margin-top: 10vh;
     align-items: center;
-    text-align: center;
+    text-align: left;
     justify-content: center;
 }
 
 .contacto > ul {
-    justify-content: center;
-    flex-wrap: wrap;
+    text-align: center;
     list-style-type: none;
     padding: 0;
-}
-
+  }
+  /* Estilos para los elementos de la lista */
 .contacto > ul > li {
-    margin: 2vh;
+    display: flex;
+    align-items: center; /* Alinear verticalmente al centro */
+    margin-bottom: 10px; /* Espacio entre los elementos de la lista */
+}
+.contacto > ul > li > img {
+    width: 30px; /* Ajustar el tamaño al tamaño del texto */
+    height: 30px; /* Ajustar el tamaño al tamaño del texto */
+    background-color: white; /* Fondo blanco */
+    border-radius: 50%; 
+    overflow: hidden;
+    margin-right: 10px; /* Espacio entre la imagen y el texto */
+    border: 1px solid white;
 }
