@@ -70,6 +70,37 @@ header{
     margin-left: 20%;
     margin-top: 0px;  
 }
+.botones-projects {
+    display: flex;
+    margin-top: 40px;
+    justify-content:space-between;
+}
+.boton-portafolio{
+    width: 50%;
+    margin-right: 2%;
+}
+.boton-newsapp{
+    width: 50%;
+    margin-left: 2%;
+}
+
+.boton-portafolio > button{
+    background-color: transparent; 
+    color: white; 
+    padding: 5px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+.boton-portafolio > button > a{
+width: 100%;
+}
+.boton-newsapp > button{
+    background-color: transparent; 
+    color: white; 
+    padding: 5px 10px;
+    cursor: pointer;
+    border-radius: 5px;
+}
 .contacto {
     margin-right: 20%;
     margin-left: 20%;
@@ -78,47 +109,52 @@ header{
     text-align: left;
     justify-content: center;
 }
-
-.contacto > ul {
-    text-align: center;
-    list-style-type: none;
-    padding: 0;
-  }
-  /* Estilos para los elementos de la lista */
-.contacto > ul > li {
+.botones-contacto{
     display: flex;
-    align-items: center; /* Alinear verticalmente al centro */
-    margin-bottom: 10px; /* Espacio entre los elementos de la lista */
-    justify-content: center;
+    justify-content:space-around;
+    padding:2%;
+    margin-bottom: 10%;
+    margin-left: 10%;
+    margin-right: 10%
+    
 }
-
-.contacto > ul > li > button { 
-    background-color: transparent; /* Color de fondo por defecto */
-    color: white; /* Color del texto */
+.btn-wpp > button {
+    background-color: transparent; 
+    color: white; 
+    padding: 5px 10px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+.btn-correo > button {
+    background-color: transparent; 
+    color: white; 
+    padding: 5px 10px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+.btn-linkedin > button {
+    background-color: transparent; 
+    color: white; 
     padding: 5px 10px;
     border: none;
     cursor: pointer;
     border-radius: 5px;
 }
 .btn:hover {
-    background-color: whitesmoke; /* Nuevo color de fondo */
+    background-color: whitesmoke; 
     color: black;
     text-decoration: none;
-  }
-
-.btn:hover > a{
-    background-color: whitesmoke; /* Nuevo color de fondo */
-    color: black;
-    text-decoration: none;
-  }
-
-.contacto > ul > li > button > a{
+}
+.btn > a{
     text-decoration: none;
     color: white;
     margin: 5px;
-    margin-bottom: 10px;
-    
 }
-.contacto > ul > li > svg { 
-    margin-right: 5px; /* Espacio entre la imagen y el texto */
+.btn:hover > a{
+    text-decoration: none;
+    color: black;
+    margin: 5px;
+    margin-bottom: 10px;
 }
