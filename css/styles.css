@@ -91,11 +91,27 @@ header{
     margin-bottom: 10px; /* Espacio entre los elementos de la lista */
     justify-content: center;
 }
+
 .contacto > ul > li > button { 
-    color: white;
-    border-radius: 10px;
+    background-color: transparent; /* Color de fondo por defecto */
+    color: white; /* Color del texto */
     padding: 5px 10px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
 }
+.btn:hover {
+    background-color: whitesmoke; /* Nuevo color de fondo */
+    color: black;
+    text-decoration: none;
+  }
+
+.btn:hover > a{
+    background-color: whitesmoke; /* Nuevo color de fondo */
+    color: black;
+    text-decoration: none;
+  }
+
 .contacto > ul > li > button > a{
     text-decoration: none;
     color: white;
